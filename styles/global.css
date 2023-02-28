@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavbarWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+.listedProject{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.listedProject li a {
+    text-decoration: none;
+}
+
+
+.fiboAllContentContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+    
+}
+
+.img{
+    width: 400px;
+    height: 150px;
+   
+}
+
+.textContainerImg{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+

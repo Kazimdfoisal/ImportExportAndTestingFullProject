@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondWrapper{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+#fullProject{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+#button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(100, 61, 241);
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+}
+
+#inputOption,#text{
+    height: 30px;
+    width: 200px;
+}
+
+#text{
+    outline: none;
+    padding: 5px;    
+}

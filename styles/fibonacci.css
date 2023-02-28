@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#input_num,.button{
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+
+.button{
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid aqua;
+    
+}
+
+#fullProject{
+    border: 1px solid red;
+ padding: 30px ;
+
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sl{
+    background:rgb(185, 217, 224);
+    font-weight:600;
+    padding: 10px;
+   
+}
+
+#fibonacci_Series{
+    display: flex;
+    gap: 20px;
+}

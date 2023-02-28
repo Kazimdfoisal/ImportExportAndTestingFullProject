@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "javascript code test",
+  "main": "../scripts/fibonacci.js",
+  "type": "module",
+  "scripts": {
+    "hw": "echo \"Doing what i like to do\" && exit 1",
+    "test":"npx jest --watchAll"
+  },
+  "author": "kjNik",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "jest":{
+    "testEnvironment":"node"
+  }
+
+}
